@@ -1,8 +1,8 @@
 /**
-* Package for calculate task.
+* Package for calculator.
 *
 * @author aponomarev
 * @version $Id$
 * @since Aug 2017
 */
-package ru.job4j;
+package ru.job4j.calculator;

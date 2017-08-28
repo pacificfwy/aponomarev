@@ -1,8 +1,8 @@
 /**
 * Package for calculate task.
 *
-* @author aponomarev (mailto:pacificfwy@gmail.com)
+* @author aponomarev
 * @version $Id$
-* @since 0.1
+* @since Aug 2017
 */
 package ru.job4j;
