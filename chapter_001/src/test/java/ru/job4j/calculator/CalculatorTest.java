@@ -1,10 +1,6 @@
 package ru.job4j.calculator;
-/**	Тест для элементарного калькулятора, класс Calculator.
-*	@author aponomarev
-*	@since Aug 28, 2017
-*/
-import org.junit.Test;
 
+import org.junit.Test;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
