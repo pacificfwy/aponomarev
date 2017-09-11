@@ -21,4 +21,17 @@ public void whenFirstMoreSecond() {
     assertThat(result, is(4));
     }
 
+@Test
+public void whenFirstMoreSecondAndThird() {
+    Max maxim = new Max();
+    int result = maxim.max(4, 3, 2);
+    assertThat(result, is(4));
+    }
+@Test
+public void whenThirdMoreSecondAndFirst() {
+    Max maxim = new Max();
+    int result = maxim.max(4, 3, 1000);
+    assertThat(result, is(1000));
+    }
+
 }
