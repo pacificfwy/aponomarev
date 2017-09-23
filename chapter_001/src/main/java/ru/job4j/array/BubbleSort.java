@@ -16,7 +16,7 @@ public class BubbleSort {
 					
 					if (first > second){
 						array[indexInt]	= second;
-						array[indexInt+1]	= first;
+						array[indexInt+1] = first;
 					}
 			}
 		
