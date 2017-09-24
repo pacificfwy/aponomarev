@@ -7,9 +7,9 @@ public class BubbleSort {
 
     public int[] sort (int[] array){
 		
-		for (int indexExt = 0; indexExt < array.length-1; indexExt++)	{
+		for (int  indexExt = array.length-1; indexExt > 0; indexExt--)	{
 		
-			for (int indexInt = 0; indexInt < array.length-1-indexExt; indexInt++){
+			for (int indexInt = 0; indexInt < indexExt; indexInt++){
 					
 					int first	= array[indexInt];
 					int second	= array[indexInt+1];
